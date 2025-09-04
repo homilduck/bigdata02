@@ -4,6 +4,26 @@
 # 다차원 배열 객체와 이를 다루기 위한 다양한 함수 제공
 
 import numpy as np
+
+arr = np.arange(1,6)
+print(arr)
+
+# indexing
+print(arr[2])
+print(arr[4],arr[-1],arr[(arr)-1])
+
+
+
+
+
+
+
+
+
+
+
+#a = np.array([1,2,3,4,5])
+#b = np.array([6,7,8,9,10])
 from numpy.ma.core import zeros
 
 #zeros = np.zeros((3,4))
@@ -26,27 +46,27 @@ from numpy.ma.core import zeros
 
 #arr = np.array(["korean","English","Matmatics"])
 #arr = np.array([[1,2,3,],[4,5,9]])
-arr = np.array(
-    [
-
-        [
-            [1.0,2.0,3.1],
-            [4.2,5.9,9.1]
-        ],
-        [
-            [1.1,0.8,2.1],
-            [6.3,1.9,77.1]
-        ]
-
-
-    ]
-)
-
-print(arr)
-print(arr.shape, arr.dtype, arr.ndim, arr.size)
+#arr = np.array(
+#    [
+#
+#        [
+#            [1.0,2.0,3.1],
+#            [4.2,5.9,9.1]
+#        ],
+#        [
+#            [1.1,0.8,2.1],
+#            [6.3,1.9,77.1]
+#        ]
+#
+#
+#    ]
+#)
+#
+#print(arr)
+#print(arr.shape, arr.dtype, arr.ndim, arr.size)
 # 위 3차원 배열에서 1.9만 출력
-print(arr[1][1][1])
-print(arr[1,1,1])  #Numpy
+#print(arr[1][1][1])
+#print(arr[1,1,1])  #Numpy
 
 # 리스트를 대신 배열을 사용하는 이유
 #list1 = [1,2,3,4,5]
