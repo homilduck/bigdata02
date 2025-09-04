@@ -5,15 +5,32 @@
 
 import numpy as np
 
-a = np.array([3,2,1])
-b = np.array([6,5,4])
+c = np.arange(1,13)
+
+r = c.reshape(2,2,3) # 3차원 배열형태로 변환
+r = c.reshape(4,3) # 2차원 배열형태로 변환
+print(c)
+print(r)
+f = r.flatten() # 2차원 배열형을 1차원 배열로 변환
+print(f)
+
+# 전치행렬
+t = r.T
+print(t)
+
+# 단위행렬
+e1 = np.eye(4)
+print(e1)
+
+#a = np.array([3,2,1])
+#b = np.array([6,5,4])
 
 # 산술연산
-print(a+b)
-print(a+b)
-print(b**2)
-print(a*10)
-print(b*2)
+#print(a+b)
+#print(a+b)
+#print(b**2)
+#print(a*10)
+#print(b*2)
 
 
 #arr = np.arange(1,6)
