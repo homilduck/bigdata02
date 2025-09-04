@@ -5,22 +5,23 @@
 
 import numpy as np
 
-arr = np.arange(1,6)
-print(arr)
+a = np.array([3,2,1])
+b = np.array([6,5,4])
+
+# 산술연산
+print(a+b)
+print(a+b)
+print(b**2)
+print(a*10)
+print(b*2)
+
+
+#arr = np.arange(1,6)
+#print(arr)
 
 # indexing
-print(arr[2])
-print(arr[4],arr[-1],arr[(arr)-1])
-
-
-
-
-
-
-
-
-
-
+#print(arr[2])
+#print(arr[4],arr[-1],arr[(arr)-1])
 
 #a = np.array([1,2,3,4,5])
 #b = np.array([6,7,8,9,10])
